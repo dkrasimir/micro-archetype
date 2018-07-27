@@ -1,6 +1,9 @@
 DOCKER_ORCHESTRATOR=kubernetes
 
-all: build run logs
+all: chmod build run logs
+
+chmod:
+	chmod +x *.sh
 
 build: 
 	./docker-build.sh
