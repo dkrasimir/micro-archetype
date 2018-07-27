@@ -9,5 +9,5 @@ curl -X POST \
 	-k \
 	-H 'X-Requested-By: micro' \
 	-H 'Authorization: Basic YWRtaW46YWRtaW4=' \
-	-F id=@./target/micro.war \
-	-F force=true https://192.168.99.100:50048/management/domain/applications/application
+	-F id=@./target/micro-sample.war \
+	-F force=true https://localhost:50048/management/domain/applications/application
