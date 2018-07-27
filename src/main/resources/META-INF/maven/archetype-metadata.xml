@@ -10,6 +10,7 @@
       <directory>src/main/webapp</directory>
       <includes>
         <include>**/*.xml</include>
+        <include>**/*.html</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
