@@ -23,6 +23,7 @@
         <include>docker-stop.sh</include>
         <include>docker-compose.sh</include>
         <include>Makefile</include>
+        <include>redeploy-curl.sh</include>
       </includes>
     </fileSet>
   </fileSets>
