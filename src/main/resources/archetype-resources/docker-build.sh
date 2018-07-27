@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t dkrasimir/micro .
+mvn clean install && docker build -t dkrasimir/micro .

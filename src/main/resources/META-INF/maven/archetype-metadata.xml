@@ -18,9 +18,11 @@
         <include>Dockerfile</include>
         <include>.dockerignore</include>
         <include>.gitignore</include>
-		<include>docker-build.sh</include>
-		<include>docker-start.sh</include>
-		<include>docker-stop.sh</include>
+        <include>docker-build.sh</include>
+        <include>docker-start.sh</include>
+        <include>docker-stop.sh</include>
+        <include>docker-compose.sh</include>
+        <include>Makefile</include>
       </includes>
     </fileSet>
   </fileSets>
