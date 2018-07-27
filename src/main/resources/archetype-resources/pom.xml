@@ -19,7 +19,7 @@
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
-                <version>1.4.17</version>
+                <version>1.6.8</version>
                 <!-- provides JSR88 client API to deploy on Glassfish and Payara -->
                 <configuration>
                     <container>

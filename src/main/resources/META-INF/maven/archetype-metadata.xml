@@ -21,7 +21,7 @@
         <include>docker-build.sh</include>
         <include>docker-start.sh</include>
         <include>docker-stop.sh</include>
-        <include>docker-compose.sh</include>
+        <include>docker-compose.yml</include>
         <include>Makefile</include>
         <include>redeploy-curl.sh</include>
       </includes>
